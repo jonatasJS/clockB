@@ -25,4 +25,6 @@ function fetchApi(url) {
   })
 }
 
+setInterval(getUserPosition, 60000);
+
 getUserPosition();
