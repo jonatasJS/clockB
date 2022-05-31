@@ -1857,21 +1857,21 @@ h2 {
     <div class='day-name-dial'>
       <div class='ring-back'></div>
       <div class='ring' id='r1'>
-        <h1 class='day-name-preview'>DAY NAME</h1>
-        <h2 class='day-name-text'>MON TUE WED THU FRI SAT SUN</h2>
+        <h1 class='day-name-preview'>NOME DO DIA</h1>
+        <h2 class='day-name-text'>SEG TER QUA QUI SEX SAB DOM</h2>
       </div>
     </div>
     <div class='month-dial'>
       <div class='ring-back'></div>
       <div class='ring' id='r2'>
-        <h1 class='month-preview'>MONTH</h1>
-        <h2 class='month-text'>JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC</h2>
+        <h1 class='month-preview'>MÊS</h1>
+        <h2 class='month-text'>JAN FEV MAR ABR MAI JUN JUL AGO SET OTU NOV DES</h2>
       </div>
     </div>
     <div class='day-dial'>
       <div class='ring-back'></div>
       <div class='ring' id='r3'>
-        <h1 class='day-preview'>DAY</h1>
+        <h1 class='day-preview'>DIA</h1>
         <h2 class='day-text'>01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17
           18 19 20 21 22 23 24 25 26 27 28 29 30 31</h2>
       </div>
@@ -1883,7 +1883,7 @@ h2 {
     <div class='side-ring' id='steps'>
       <div class='bars'>
         <div class='bar'>
-          <div class='day-letter'>M</div>
+          <div class='day-letter'>S</div>
           <div class='x' id='x1'></div>
         </div>
         <div class='bar'>
@@ -1891,15 +1891,15 @@ h2 {
           <div class='x' id='x2'></div>
         </div>
         <div class='bar'>
-          <div class='day-letter'>W</div>
+          <div class='day-letter'>Q</div>
           <div class='x' id='x3'></div>
         </div>
         <div class='bar'>
-          <div class='day-letter'>T</div>
+          <div class='day-letter'>Q</div>
           <div class='x' id='x4'></div>
         </div>
         <div class='bar'>
-          <div class='day-letter'>F</div>
+          <div class='day-letter'>S</div>
           <div class='x' id='x5'></div>
         </div>
         <div class='bar'>
@@ -1907,14 +1907,12 @@ h2 {
           <div class='x' id='x6'></div>
         </div>
         <div class='bar'>
-          <div class='day-letter'>S</div>
+          <div class='day-letter'>D</div>
           <div class='x' id='x7'></div>
         </div>
       </div>
     </div>
-    <script
-      src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-    <script
+   <script
       src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script
       src='https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js'></script>
@@ -2071,7 +2069,7 @@ $(function () {
 });
 //# sourceURL=pen.js
     </script>
-    <!-- <script language=JavaScript>
+    <script language=JavaScript>
 
 //Disable right mouse click Script
 //By Geek Site.in
@@ -2123,19 +2121,10 @@ document.onkeydown = function(e) {
         }
 };
 </script>
--->
+
 
 
     <script src="temp.js"></script>
-
-    <script>
-      var callbackFunction = function(data) {
-          console.log(data);
-      };
-  </script>
-  
-  <script src="https://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='são paulo, sp')&format=json&callback=callbackFunction"></script>
-
   </body>
 
 </html>

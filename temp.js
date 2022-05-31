@@ -17,7 +17,7 @@ function fetchApi(url) {
   })
   .then((data) => {
     let tempInCelsius = ((5/9) * (data.main.temp-32)).toFixed(1);
-    temperature.innerText = tempInCelsius;
+    temperature.innerText = `${tempInCelsius} °C`;
   })
   .catch((err) => {
     console.log(`Impossível acessar o OpenWeather. Verifique a sua conexão.`);
